@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('author');
             $table->string('publication');
-            $table->unsignedInteger('year');
+            $table->date('year');
             $table->timestamps();
         });
     }

@@ -85,7 +85,7 @@ class BookController extends Controller
       $book->year = $request->year;
       $book->update();
     
-      return $book;
+      return redirect('/books');
     }
 
     /**
